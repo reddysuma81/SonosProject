@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		794CE3421A1035C900CCF4BE /* AutoAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 794CE3411A1035C900CCF4BE /* AutoAutoLayout.m */; };
+		797B9A111A0D3DEA0037C71F /* settings icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 797B9A101A0D3DEA0037C71F /* settings icon.png */; };
+		797B9A1D1A0D43140037C71F /* playbutton2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 797B9A1C1A0D43140037C71F /* playbutton2.jpeg */; };
+		797B9A211A0D45C20037C71F /* lineIcon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 797B9A201A0D45C20037C71F /* lineIcon.jpeg */; };
+		797B9A271A0D4DDB0037C71F /* Thumbs-DownSmiley-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 797B9A261A0D4DDB0037C71F /* Thumbs-DownSmiley-icon.png */; };
+		797B9A291A0D4DE00037C71F /* Thumbs-UpSmiley-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 797B9A281A0D4DE00037C71F /* Thumbs-UpSmiley-icon.png */; };
+		797B9A2C1A0E6E6F0037C71F /* SearchDisplayTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 797B9A2B1A0E6E6F0037C71F /* SearchDisplayTableViewController.m */; };
+		797B9A321A0FEE9D0037C71F /* Songs.m in Sources */ = {isa = PBXBuildFile; fileRef = 797B9A311A0FEE9D0037C71F /* Songs.m */; };
+		797B9A351A0FF6220037C71F /* SongTableCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 797B9A341A0FF6220037C71F /* SongTableCellTableViewCell.m */; };
+		79ADA8761A094D9E00A680E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79ADA8751A094D9E00A680E5 /* main.m */; };
+		79ADA8791A094D9E00A680E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79ADA8781A094D9E00A680E5 /* AppDelegate.m */; };
+		79ADA87F1A094D9E00A680E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79ADA87D1A094D9E00A680E5 /* Main.storyboard */; };
+		79ADA8811A094D9E00A680E5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79ADA8801A094D9E00A680E5 /* Images.xcassets */; };
+		79ADA8841A094D9E00A680E5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79ADA8821A094D9E00A680E5 /* LaunchScreen.xib */; };
+		79ADA8901A094D9E00A680E5 /* SonosProjectInterfaceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79ADA88F1A094D9E00A680E5 /* SonosProjectInterfaceTests.m */; };
+		79ADA89B1A094EB500A680E5 /* SonosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79ADA89A1A094EB500A680E5 /* SonosViewController.m */; };
+		79B935B41A1030130067081E /* pauseIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 79B935B31A1030130067081E /* pauseIcon.png */; };
+		79B935B61A1030170067081E /* nextIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 79B935B51A1030170067081E /* nextIcon.png */; };
+		79B935B81A10301A0067081E /* previousIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 79B935B71A10301A0067081E /* previousIcon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79ADA88A1A094D9E00A680E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79ADA8681A094D9E00A680E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79ADA86F1A094D9E00A680E5;
+			remoteInfo = SonosProjectInterface;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		794CE3401A1035C900CCF4BE /* AutoAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoAutoLayout.h; sourceTree = "<group>"; };
+		794CE3411A1035C900CCF4BE /* AutoAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoAutoLayout.m; sourceTree = "<group>"; };
+		797B9A101A0D3DEA0037C71F /* settings icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings icon.png"; sourceTree = "<group>"; };
+		797B9A1C1A0D43140037C71F /* playbutton2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = playbutton2.jpeg; sourceTree = "<group>"; };
+		797B9A201A0D45C20037C71F /* lineIcon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lineIcon.jpeg; sourceTree = "<group>"; };
+		797B9A261A0D4DDB0037C71F /* Thumbs-DownSmiley-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Thumbs-DownSmiley-icon.png"; sourceTree = "<group>"; };
+		797B9A281A0D4DE00037C71F /* Thumbs-UpSmiley-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Thumbs-UpSmiley-icon.png"; sourceTree = "<group>"; };
+		797B9A2A1A0E6E6F0037C71F /* SearchDisplayTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchDisplayTableViewController.h; sourceTree = "<group>"; };
+		797B9A2B1A0E6E6F0037C71F /* SearchDisplayTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchDisplayTableViewController.m; sourceTree = "<group>"; };
+		797B9A301A0FEE9D0037C71F /* Songs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Songs.h; sourceTree = "<group>"; };
+		797B9A311A0FEE9D0037C71F /* Songs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Songs.m; sourceTree = "<group>"; };
+		797B9A331A0FF6220037C71F /* SongTableCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongTableCellTableViewCell.h; sourceTree = "<group>"; };
+		797B9A341A0FF6220037C71F /* SongTableCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongTableCellTableViewCell.m; sourceTree = "<group>"; };
+		79ADA8701A094D9E00A680E5 /* SonosProjectInterface.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SonosProjectInterface.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79ADA8741A094D9E00A680E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79ADA8751A094D9E00A680E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		79ADA8771A094D9E00A680E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		79ADA8781A094D9E00A680E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		79ADA87E1A094D9E00A680E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		79ADA8801A094D9E00A680E5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		79ADA8831A094D9E00A680E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		79ADA8891A094D9E00A680E5 /* SonosProjectInterfaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SonosProjectInterfaceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79ADA88E1A094D9E00A680E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79ADA88F1A094D9E00A680E5 /* SonosProjectInterfaceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SonosProjectInterfaceTests.m; sourceTree = "<group>"; };
+		79ADA8991A094EB500A680E5 /* SonosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SonosViewController.h; sourceTree = "<group>"; };
+		79ADA89A1A094EB500A680E5 /* SonosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SonosViewController.m; sourceTree = "<group>"; };
+		79B935B31A1030130067081E /* pauseIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pauseIcon.png; sourceTree = "<group>"; };
+		79B935B51A1030170067081E /* nextIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nextIcon.png; sourceTree = "<group>"; };
+		79B935B71A10301A0067081E /* previousIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = previousIcon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79ADA86D1A094D9E00A680E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79ADA8861A094D9E00A680E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79ADA8671A094D9E00A680E5 = {
+			isa = PBXGroup;
+			children = (
+				79ADA8721A094D9E00A680E5 /* SonosProjectInterface */,
+				79ADA88C1A094D9E00A680E5 /* SonosProjectInterfaceTests */,
+				79ADA8711A094D9E00A680E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79ADA8711A094D9E00A680E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79ADA8701A094D9E00A680E5 /* SonosProjectInterface.app */,
+				79ADA8891A094D9E00A680E5 /* SonosProjectInterfaceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79ADA8721A094D9E00A680E5 /* SonosProjectInterface */ = {
+			isa = PBXGroup;
+			children = (
+				79ADA8771A094D9E00A680E5 /* AppDelegate.h */,
+				79ADA8781A094D9E00A680E5 /* AppDelegate.m */,
+				79ADA87D1A094D9E00A680E5 /* Main.storyboard */,
+				797B9A2A1A0E6E6F0037C71F /* SearchDisplayTableViewController.h */,
+				797B9A2B1A0E6E6F0037C71F /* SearchDisplayTableViewController.m */,
+				79ADA8991A094EB500A680E5 /* SonosViewController.h */,
+				79ADA89A1A094EB500A680E5 /* SonosViewController.m */,
+				797B9A301A0FEE9D0037C71F /* Songs.h */,
+				797B9A311A0FEE9D0037C71F /* Songs.m */,
+				797B9A331A0FF6220037C71F /* SongTableCellTableViewCell.h */,
+				797B9A341A0FF6220037C71F /* SongTableCellTableViewCell.m */,
+				794CE3401A1035C900CCF4BE /* AutoAutoLayout.h */,
+				794CE3411A1035C900CCF4BE /* AutoAutoLayout.m */,
+				79ADA8801A094D9E00A680E5 /* Images.xcassets */,
+				79ADA8821A094D9E00A680E5 /* LaunchScreen.xib */,
+				79ADA8731A094D9E00A680E5 /* Supporting Files */,
+			);
+			path = SonosProjectInterface;
+			sourceTree = "<group>";
+		};
+		79ADA8731A094D9E00A680E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				797B9A1C1A0D43140037C71F /* playbutton2.jpeg */,
+				797B9A201A0D45C20037C71F /* lineIcon.jpeg */,
+				797B9A261A0D4DDB0037C71F /* Thumbs-DownSmiley-icon.png */,
+				79B935B71A10301A0067081E /* previousIcon.png */,
+				79B935B51A1030170067081E /* nextIcon.png */,
+				79B935B31A1030130067081E /* pauseIcon.png */,
+				797B9A281A0D4DE00037C71F /* Thumbs-UpSmiley-icon.png */,
+				797B9A101A0D3DEA0037C71F /* settings icon.png */,
+				79ADA8741A094D9E00A680E5 /* Info.plist */,
+				79ADA8751A094D9E00A680E5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79ADA88C1A094D9E00A680E5 /* SonosProjectInterfaceTests */ = {
+			isa = PBXGroup;
+			children = (
+				79ADA88F1A094D9E00A680E5 /* SonosProjectInterfaceTests.m */,
+				79ADA88D1A094D9E00A680E5 /* Supporting Files */,
+			);
+			path = SonosProjectInterfaceTests;
+			sourceTree = "<group>";
+		};
+		79ADA88D1A094D9E00A680E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79ADA88E1A094D9E00A680E5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79ADA86F1A094D9E00A680E5 /* SonosProjectInterface */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79ADA8931A094D9E00A680E5 /* Build configuration list for PBXNativeTarget "SonosProjectInterface" */;
+			buildPhases = (
+				79ADA86C1A094D9E00A680E5 /* Sources */,
+				79ADA86D1A094D9E00A680E5 /* Frameworks */,
+				79ADA86E1A094D9E00A680E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SonosProjectInterface;
+			productName = SonosProjectInterface;
+			productReference = 79ADA8701A094D9E00A680E5 /* SonosProjectInterface.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79ADA8881A094D9E00A680E5 /* SonosProjectInterfaceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79ADA8961A094D9E00A680E5 /* Build configuration list for PBXNativeTarget "SonosProjectInterfaceTests" */;
+			buildPhases = (
+				79ADA8851A094D9E00A680E5 /* Sources */,
+				79ADA8861A094D9E00A680E5 /* Frameworks */,
+				79ADA8871A094D9E00A680E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79ADA88B1A094D9E00A680E5 /* PBXTargetDependency */,
+			);
+			name = SonosProjectInterfaceTests;
+			productName = SonosProjectInterfaceTests;
+			productReference = 79ADA8891A094D9E00A680E5 /* SonosProjectInterfaceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79ADA8681A094D9E00A680E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Flatiron;
+				TargetAttributes = {
+					79ADA86F1A094D9E00A680E5 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					79ADA8881A094D9E00A680E5 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 79ADA86F1A094D9E00A680E5;
+					};
+				};
+			};
+			buildConfigurationList = 79ADA86B1A094D9E00A680E5 /* Build configuration list for PBXProject "SonosProjectInterface" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79ADA8671A094D9E00A680E5;
+			productRefGroup = 79ADA8711A094D9E00A680E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79ADA86F1A094D9E00A680E5 /* SonosProjectInterface */,
+				79ADA8881A094D9E00A680E5 /* SonosProjectInterfaceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79ADA86E1A094D9E00A680E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				797B9A211A0D45C20037C71F /* lineIcon.jpeg in Resources */,
+				79B935B61A1030170067081E /* nextIcon.png in Resources */,
+				79B935B81A10301A0067081E /* previousIcon.png in Resources */,
+				797B9A271A0D4DDB0037C71F /* Thumbs-DownSmiley-icon.png in Resources */,
+				79ADA87F1A094D9E00A680E5 /* Main.storyboard in Resources */,
+				797B9A291A0D4DE00037C71F /* Thumbs-UpSmiley-icon.png in Resources */,
+				797B9A1D1A0D43140037C71F /* playbutton2.jpeg in Resources */,
+				79ADA8841A094D9E00A680E5 /* LaunchScreen.xib in Resources */,
+				79ADA8811A094D9E00A680E5 /* Images.xcassets in Resources */,
+				797B9A111A0D3DEA0037C71F /* settings icon.png in Resources */,
+				79B935B41A1030130067081E /* pauseIcon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79ADA8871A094D9E00A680E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79ADA86C1A094D9E00A680E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				797B9A321A0FEE9D0037C71F /* Songs.m in Sources */,
+				797B9A2C1A0E6E6F0037C71F /* SearchDisplayTableViewController.m in Sources */,
+				79ADA89B1A094EB500A680E5 /* SonosViewController.m in Sources */,
+				79ADA8791A094D9E00A680E5 /* AppDelegate.m in Sources */,
+				794CE3421A1035C900CCF4BE /* AutoAutoLayout.m in Sources */,
+				79ADA8761A094D9E00A680E5 /* main.m in Sources */,
+				797B9A351A0FF6220037C71F /* SongTableCellTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79ADA8851A094D9E00A680E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79ADA8901A094D9E00A680E5 /* SonosProjectInterfaceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79ADA88B1A094D9E00A680E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79ADA86F1A094D9E00A680E5 /* SonosProjectInterface */;
+			targetProxy = 79ADA88A1A094D9E00A680E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		79ADA87D1A094D9E00A680E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79ADA87E1A094D9E00A680E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		79ADA8821A094D9E00A680E5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79ADA8831A094D9E00A680E5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79ADA8911A094D9E00A680E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79ADA8921A094D9E00A680E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79ADA8941A094D9E00A680E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SonosProjectInterface/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		79ADA8951A094D9E00A680E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SonosProjectInterface/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		79ADA8971A094D9E00A680E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SonosProjectInterfaceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SonosProjectInterface.app/SonosProjectInterface";
+			};
+			name = Debug;
+		};
+		79ADA8981A094D9E00A680E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SonosProjectInterfaceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SonosProjectInterface.app/SonosProjectInterface";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79ADA86B1A094D9E00A680E5 /* Build configuration list for PBXProject "SonosProjectInterface" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79ADA8911A094D9E00A680E5 /* Debug */,
+				79ADA8921A094D9E00A680E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79ADA8931A094D9E00A680E5 /* Build configuration list for PBXNativeTarget "SonosProjectInterface" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79ADA8941A094D9E00A680E5 /* Debug */,
+				79ADA8951A094D9E00A680E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79ADA8961A094D9E00A680E5 /* Build configuration list for PBXNativeTarget "SonosProjectInterfaceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79ADA8971A094D9E00A680E5 /* Debug */,
+				79ADA8981A094D9E00A680E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79ADA8681A094D9E00A680E5 /* Project object */;
+}
