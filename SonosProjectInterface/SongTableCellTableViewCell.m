@@ -16,25 +16,26 @@
 
 - (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
-    [self.contentView addSubview:self.artistLabel];
     [self.contentView addSubview:self.songLabel];
+    [self.contentView addSubview:self.artistLabel];
     return self;
-}
-
-- (UILabel *)artistLabel {
-    if (_artistLabel == nil) {
-        _artistLabel = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, 100, 15)];
-        _artistLabel.font = [UIFont systemFontOfSize:10];
-    }
-    return _artistLabel;
 }
 
 - (UILabel *)songLabel {
     if (_songLabel == nil) {
-        _songLabel = [[UILabel alloc]initWithFrame:CGRectMake(0, 20, 100, 15)];
-        _songLabel.font = [UIFont systemFontOfSize:10];
+        _songLabel = [[UILabel alloc]initWithFrame:CGRectMake(20, 8, 100, 15)];
+        _songLabel.font = [UIFont systemFontOfSize:14];
     }
     return _songLabel;
 }
+
+- (UILabel *)artistLabel {
+    if (_artistLabel == nil) {
+        _artistLabel = [[UILabel alloc]initWithFrame:CGRectMake(20, 24, 100, 15)];
+        _artistLabel.font = [UIFont systemFontOfSize:12];
+    }
+    return _artistLabel;
+}
+
 
 @end

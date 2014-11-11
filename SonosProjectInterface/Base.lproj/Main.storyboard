@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="CK1-IS-XqD">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
@@ -16,7 +16,90 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fa4-H6-2DO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-952" y="161"/>
+            <point key="canvasLocation" x="-818" y="152"/>
+        </scene>
+        <!--Login Page View Controller-->
+        <scene sceneID="Iyf-Yc-0pJ">
+            <objects>
+                <viewController id="CK1-IS-XqD" customClass="LoginPageViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bTv-eN-eb1"/>
+                        <viewControllerLayoutGuide type="bottom" id="ggW-f9-fUh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="sGN-VK-ajW">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="bottomLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="microphone3.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="1Xq-gj-2g7">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.20000000000000001" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="musical notes.png" translatesAutoresizingMaskIntoConstraints="NO" id="dHf-Vb-biB">
+                                <rect key="frame" x="-29" y="138" width="378" height="192"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.20000000000000001" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="musical notes.png" translatesAutoresizingMaskIntoConstraints="NO" id="PeU-bK-yTS">
+                                <rect key="frame" x="-12" y="288" width="378" height="192"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.20000000000000001" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="musical notes.png" translatesAutoresizingMaskIntoConstraints="NO" id="FAX-cn-lLN">
+                                <rect key="frame" x="-6" y="-8" width="378" height="159"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.59999999999999998" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ironVoteIcon.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ct3-I4-uP0">
+                                <rect key="frame" x="61" y="48" width="199" height="145"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pce-zQ-gRD">
+                                <rect key="frame" x="159" y="338" width="129" height="45"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="tintColor" red="0.0" green="8.2014513730000005e-05" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Join">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d75-C8-FVP">
+                                <rect key="frame" x="83" y="195" width="188" height="21"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="making your voice heard">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="16" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="connect via" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zhS-kD-QeC">
+                                <rect key="frame" x="176" y="385" width="102" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="IronVote" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MfO-zm-70b">
+                                <rect key="frame" x="131" y="69" width="69" height="29"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slackIcon.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="BYN-hO-6zE">
+                                <rect key="frame" x="243" y="382" width="23" height="27"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Dpi-yx-6gx"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="logoLabel" destination="d75-C8-FVP" id="SYk-J3-ONw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XID-kr-xYN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-317" y="152"/>
         </scene>
         <!--Sonos View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -181,7 +264,7 @@
                     </connections>
                 </searchDisplayController>
             </objects>
-            <point key="canvasLocation" x="-559" y="161"/>
+            <point key="canvasLocation" x="24" y="152"/>
         </scene>
         <!--Search Display Table View Controller-->
         <scene sceneID="fMv-EC-Lms">
@@ -226,18 +309,22 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="S6l-Nz-fU6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-169" y="161"/>
+            <point key="canvasLocation" x="643" y="161"/>
         </scene>
     </scenes>
     <resources>
         <image name="Thumbs-DownSmiley-icon.png" width="128" height="128"/>
         <image name="Thumbs-UpSmiley-icon.png" width="128" height="128"/>
+        <image name="ironVoteIcon.jpg" width="323" height="323"/>
         <image name="lineIcon.jpeg" width="375" height="135"/>
+        <image name="microphone3.jpg" width="183" height="275"/>
+        <image name="musical notes.png" width="254" height="180"/>
         <image name="nextIcon.png" width="225" height="225"/>
         <image name="pauseIcon.png" width="102" height="102"/>
         <image name="playbutton2.jpeg" width="226" height="223"/>
         <image name="previousIcon.png" width="225" height="225"/>
         <image name="settings icon.png" width="512" height="512"/>
+        <image name="slackIcon.jpeg" width="119" height="119"/>
         <image name="stopButton2.png" width="626" height="626"/>
     </resources>
 </document>

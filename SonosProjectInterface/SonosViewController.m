@@ -71,7 +71,7 @@
         self.hiddenTableView.hidden = YES;
     } else {
         self.hiddenTableView.hidden = NO;
-        NSPredicate *resultsPredicate = [NSPredicate predicateWithFormat:@"song BEGINSWITH[c] %@", self.searchTextField.text];
+        NSPredicate *resultsPredicate = [NSPredicate predicateWithFormat:@"song CONTAINS[c] %@", self.searchTextField.text];
         self.searchResults = [self.songs filteredArrayUsingPredicate:resultsPredicate];
         [self.hiddenTableView reloadData];
     }
@@ -118,17 +118,6 @@
     // Pass the selected object to the new view controller.
 }
 */
-
-//This method is invoked when a user keys in a search term.  The UISearchDisplayDelegate protocol defines a shouldReloadTableForSearchString: method which is automatically called every time when the search string changes. We then call up the filterContentForSearchText: method to do the search.
-//-(BOOL)searchDisplayController:(UISearchController *)controller shouldReloadTableForSearchString:(NSString *)searchString
-//{
-//    [self filterContentForSearchText:searchString
-//                               scope:[[self.searchDisplayController.searchBar scopeButtonTitles]
-//                                      objectAtIndex:[self.searchDisplayController.searchBar
-//                                                     selectedScopeButtonIndex]]];
-//    
-//    return YES;
-//}
 
 //Create a method to handle search filtering.  Searches through all songs and returns the matched results.
 -(void)filterContentForSearchText:(NSString *)searchText scope:(NSString *)scope

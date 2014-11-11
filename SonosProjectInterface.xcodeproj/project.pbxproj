@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		792273CA1A112CBD008AB0F1 /* band.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 792273C91A112CBD008AB0F1 /* band.jpg */; };
+		792273CC1A112D87008AB0F1 /* microphone.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 792273CB1A112D87008AB0F1 /* microphone.jpg */; };
+		792273CE1A112DB6008AB0F1 /* colorful guitar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 792273CD1A112DB6008AB0F1 /* colorful guitar.jpg */; };
+		792273D01A112E12008AB0F1 /* instruments.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 792273CF1A112E12008AB0F1 /* instruments.jpg */; };
+		792273D21A112EBE008AB0F1 /* microphoneb&w.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 792273D11A112EBE008AB0F1 /* microphoneb&w.jpg */; };
+		792273D41A112EF3008AB0F1 /* microphone3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 792273D31A112EF3008AB0F1 /* microphone3.jpg */; };
+		792273D61A112F55008AB0F1 /* rainbowHeadphone.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 792273D51A112F55008AB0F1 /* rainbowHeadphone.jpg */; };
+		792273D81A112FBC008AB0F1 /* musicalNotes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 792273D71A112FBC008AB0F1 /* musicalNotes.jpg */; };
+		792273DA1A113045008AB0F1 /* musical notes.png in Resources */ = {isa = PBXBuildFile; fileRef = 792273D91A113045008AB0F1 /* musical notes.png */; };
+		792273DC1A113244008AB0F1 /* button_silver@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 792273DB1A113244008AB0F1 /* button_silver@2x.png */; };
+		792273DF1A113305008AB0F1 /* LoginPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 792273DE1A113305008AB0F1 /* LoginPageViewController.m */; };
+		792273EC1A1192D0008AB0F1 /* ironVoteIcon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 792273EB1A1192D0008AB0F1 /* ironVoteIcon.jpg */; };
 		794CE3421A1035C900CCF4BE /* AutoAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 794CE3411A1035C900CCF4BE /* AutoAutoLayout.m */; };
 		797B9A111A0D3DEA0037C71F /* settings icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 797B9A101A0D3DEA0037C71F /* settings icon.png */; };
 		797B9A1D1A0D43140037C71F /* playbutton2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 797B9A1C1A0D43140037C71F /* playbutton2.jpeg */; };
@@ -26,6 +38,7 @@
 		79B935B41A1030130067081E /* pauseIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 79B935B31A1030130067081E /* pauseIcon.png */; };
 		79B935B61A1030170067081E /* nextIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 79B935B51A1030170067081E /* nextIcon.png */; };
 		79B935B81A10301A0067081E /* previousIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 79B935B71A10301A0067081E /* previousIcon.png */; };
+		79F5BA3D1A119E3400065EE2 /* slackIcon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 79F5BA3C1A119E3400065EE2 /* slackIcon.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +52,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		792273C91A112CBD008AB0F1 /* band.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = band.jpg; sourceTree = "<group>"; };
+		792273CB1A112D87008AB0F1 /* microphone.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = microphone.jpg; sourceTree = "<group>"; };
+		792273CD1A112DB6008AB0F1 /* colorful guitar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "colorful guitar.jpg"; sourceTree = "<group>"; };
+		792273CF1A112E12008AB0F1 /* instruments.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = instruments.jpg; sourceTree = "<group>"; };
+		792273D11A112EBE008AB0F1 /* microphoneb&w.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "microphoneb&w.jpg"; sourceTree = "<group>"; };
+		792273D31A112EF3008AB0F1 /* microphone3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = microphone3.jpg; sourceTree = "<group>"; };
+		792273D51A112F55008AB0F1 /* rainbowHeadphone.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rainbowHeadphone.jpg; sourceTree = "<group>"; };
+		792273D71A112FBC008AB0F1 /* musicalNotes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = musicalNotes.jpg; sourceTree = "<group>"; };
+		792273D91A113045008AB0F1 /* musical notes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "musical notes.png"; sourceTree = "<group>"; };
+		792273DB1A113244008AB0F1 /* button_silver@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_silver@2x.png"; sourceTree = "<group>"; };
+		792273DD1A113305008AB0F1 /* LoginPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginPageViewController.h; sourceTree = "<group>"; };
+		792273DE1A113305008AB0F1 /* LoginPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginPageViewController.m; sourceTree = "<group>"; };
+		792273EB1A1192D0008AB0F1 /* ironVoteIcon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ironVoteIcon.jpg; path = ../../../../../ironVoteIcon.jpg; sourceTree = "<group>"; };
 		794CE3401A1035C900CCF4BE /* AutoAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoAutoLayout.h; sourceTree = "<group>"; };
 		794CE3411A1035C900CCF4BE /* AutoAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoAutoLayout.m; sourceTree = "<group>"; };
 		797B9A101A0D3DEA0037C71F /* settings icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings icon.png"; sourceTree = "<group>"; };
@@ -68,6 +94,7 @@
 		79B935B31A1030130067081E /* pauseIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pauseIcon.png; sourceTree = "<group>"; };
 		79B935B51A1030170067081E /* nextIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nextIcon.png; sourceTree = "<group>"; };
 		79B935B71A10301A0067081E /* previousIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = previousIcon.png; sourceTree = "<group>"; };
+		79F5BA3C1A119E3400065EE2 /* slackIcon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = slackIcon.jpeg; path = ../../../../../slackIcon.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +139,8 @@
 				79ADA8771A094D9E00A680E5 /* AppDelegate.h */,
 				79ADA8781A094D9E00A680E5 /* AppDelegate.m */,
 				79ADA87D1A094D9E00A680E5 /* Main.storyboard */,
+				792273DD1A113305008AB0F1 /* LoginPageViewController.h */,
+				792273DE1A113305008AB0F1 /* LoginPageViewController.m */,
 				797B9A2A1A0E6E6F0037C71F /* SearchDisplayTableViewController.h */,
 				797B9A2B1A0E6E6F0037C71F /* SearchDisplayTableViewController.m */,
 				79ADA8991A094EB500A680E5 /* SonosViewController.h */,
@@ -132,7 +161,19 @@
 		79ADA8731A094D9E00A680E5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				79F5BA3C1A119E3400065EE2 /* slackIcon.jpeg */,
 				797B9A1C1A0D43140037C71F /* playbutton2.jpeg */,
+				792273EB1A1192D0008AB0F1 /* ironVoteIcon.jpg */,
+				792273D71A112FBC008AB0F1 /* musicalNotes.jpg */,
+				792273DB1A113244008AB0F1 /* button_silver@2x.png */,
+				792273D51A112F55008AB0F1 /* rainbowHeadphone.jpg */,
+				792273D91A113045008AB0F1 /* musical notes.png */,
+				792273CF1A112E12008AB0F1 /* instruments.jpg */,
+				792273D31A112EF3008AB0F1 /* microphone3.jpg */,
+				792273D11A112EBE008AB0F1 /* microphoneb&w.jpg */,
+				792273CB1A112D87008AB0F1 /* microphone.jpg */,
+				792273CD1A112DB6008AB0F1 /* colorful guitar.jpg */,
+				792273C91A112CBD008AB0F1 /* band.jpg */,
 				797B9A201A0D45C20037C71F /* lineIcon.jpeg */,
 				797B9A261A0D4DDB0037C71F /* Thumbs-DownSmiley-icon.png */,
 				79B935B71A10301A0067081E /* previousIcon.png */,
@@ -243,17 +284,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				792273CC1A112D87008AB0F1 /* microphone.jpg in Resources */,
 				797B9A211A0D45C20037C71F /* lineIcon.jpeg in Resources */,
 				79B935B61A1030170067081E /* nextIcon.png in Resources */,
+				792273DC1A113244008AB0F1 /* button_silver@2x.png in Resources */,
+				792273DA1A113045008AB0F1 /* musical notes.png in Resources */,
+				792273D21A112EBE008AB0F1 /* microphoneb&w.jpg in Resources */,
 				79B935B81A10301A0067081E /* previousIcon.png in Resources */,
 				797B9A271A0D4DDB0037C71F /* Thumbs-DownSmiley-icon.png in Resources */,
+				792273CA1A112CBD008AB0F1 /* band.jpg in Resources */,
+				792273CE1A112DB6008AB0F1 /* colorful guitar.jpg in Resources */,
 				79ADA87F1A094D9E00A680E5 /* Main.storyboard in Resources */,
 				797B9A291A0D4DE00037C71F /* Thumbs-UpSmiley-icon.png in Resources */,
+				792273D41A112EF3008AB0F1 /* microphone3.jpg in Resources */,
 				797B9A1D1A0D43140037C71F /* playbutton2.jpeg in Resources */,
+				792273EC1A1192D0008AB0F1 /* ironVoteIcon.jpg in Resources */,
 				79ADA8841A094D9E00A680E5 /* LaunchScreen.xib in Resources */,
+				792273D61A112F55008AB0F1 /* rainbowHeadphone.jpg in Resources */,
+				792273D01A112E12008AB0F1 /* instruments.jpg in Resources */,
 				79ADA8811A094D9E00A680E5 /* Images.xcassets in Resources */,
+				79F5BA3D1A119E3400065EE2 /* slackIcon.jpeg in Resources */,
 				797B9A111A0D3DEA0037C71F /* settings icon.png in Resources */,
 				79B935B41A1030130067081E /* pauseIcon.png in Resources */,
+				792273D81A112FBC008AB0F1 /* musicalNotes.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +325,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				797B9A321A0FEE9D0037C71F /* Songs.m in Sources */,
+				792273DF1A113305008AB0F1 /* LoginPageViewController.m in Sources */,
 				797B9A2C1A0E6E6F0037C71F /* SearchDisplayTableViewController.m in Sources */,
 				79ADA89B1A094EB500A680E5 /* SonosViewController.m in Sources */,
 				79ADA8791A094D9E00A680E5 /* AppDelegate.m in Sources */,
